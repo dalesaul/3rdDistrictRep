@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- In your HTML, create an article tag that will serve as your main representative component. 
+    Give the element a unique identifier.
+    In this component, create a sub-component for basic information using the section tag. In this section create elements for the representative's image, name, district info, and political affiliation.
+    Beneath the basic information, you will create a sub-component, using a section tag, to list any committees the candidate is serving on.
+    The last component will hold links to any legislation that your representative has enacted.  -->
+    <article class="representative">
+        <section class="info-section">
+            <img class="rep-photo" src="https://ballotpedia.s3.amazonaws.com/images/thumb/5/52/Miller_carol.jpg/140px-Miller_carol.jpg?AWSAccessKeyId=AKIAJYSMGSWZEGREQP4Q&Expires=1548169579&Signature=jBWBnUmfqN8cctIyE3O0QqUqYPM%3D" alt="">
+            <h2 class="rep-name">Carol Miller</h2>
+            <h4 class="rep-district">3rd District</h4>
+            <h4 class="rep-party">Republican't</h4>
+        </section> 
+        <section class="committees-section">Committees: 
+            <ul>
+                <li class="rep-committee-one">Agriculture & Natural Resources</li>
+                <li class="rep-committee-two">Finance</li>
+                <li class="rep-committee-three">Rules</li>
+                <li class="rep-committee-three">Small Business, Entrepreneurship, and Economic Development</li>
+            </ul>
+        </section>
+        <section class="Legislation-section">Current Active Legislation:
+            <a class="rep-legislation-one" href="https://www.billtrack50.com/BillDetail/1014007">WV HB2397</a>
+            <a class="rep-legislation-two" href="https://www.billtrack50.com/BillDetail/1013999">WV HB2382</a>
+            <a class="rep-legislation-three" href="https://www.billtrack50.com/BillDetail/1013849">WV HB2362</a>
+            <a class="rep-legislation-four" href="https://www.billtrack50.com/BillDetail/1012471">WV HB2321</a>
+        </section>
+
+    </article>
+</body>
+</html>
